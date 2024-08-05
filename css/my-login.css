@@ -4,7 +4,7 @@ html,body {
 
 body.my-login-page {
 	background-color:#E5E9F1;
-	font-size: 14px;
+	/* font-size: 14px; */
 	background: linear-gradient(20deg, #D3CDFF, #EDF4FE, #FFFFFF);
 
 
@@ -13,7 +13,7 @@ body.my-login-page {
 }
 
 .my-login-page .brand {
-padding: 24px;
+    padding: 24px;
 	position: relative;
 	z-index: 1;
 	text-align:center;
@@ -33,6 +33,16 @@ padding: 24px;
 .my-login-page .card.fat {
 	padding: 10px;
 
+}
+
+.formstepper {
+	width: 16px !important;
+	height: 16px !important;
+	display: inline !important;
+	padding: 4px !important;
+	margin: 0px !important;
+	font-size: 9px !important;
+	align-items: center;
 }
 
 .my-login-page .card .card-title {
@@ -58,6 +68,7 @@ padding: 24px;
 	margin: 40px 0;
 	color: #888;
 	text-align: center;
+	font-size: x-small;
 
 
 }
@@ -69,13 +80,22 @@ padding: 24px;
 .loginbtn {
 	background-color: #2A6BE0;
 }
+ .topic{
+	font-size: 30px;
+}
+ .country{
+	padding: 10px;
+	border-radius: 5px;
+ }
+
+
 
 
 
 
 @media screen and (max-width: 425px) {
 	.my-login-page .card-wrapper {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 	}
 }
