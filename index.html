@@ -34,22 +34,23 @@
 
 								<div class="form-group">
 									<label for="password">Password
-										<a href="forgot.html" class="float-right">
-											Forgot Password?
-										</a>
+
 									</label>
-									<input id="password" type="password" class="form-control" name="password" required data-eye>
+									<input id="myinput" type="password" class="form-control" value="" name="password">
 								    <div class="invalid-feedback">
 								    	Password is required
 							    	</div>
 								</div>
 
 								<div class="form-group">
-									<div class="custom-checkbox custom-control">
-										<input type="checkbox" name="remember" id="remember" class="custom-control-input">
-										<label for="remember" class="custom-control-label">Remember Me</label>
+									<i class="bi bi eye-slash" class="togglePassword"></i>
+									<div class="password-toggle-icon">
+                                     <input type="checkbox" onclick="myFunction()"> Show Password
 									</div>
 								</div>
+								<a href="forgot.html" class="float-left">
+									Forgot Password >
+								</a>
 
 								<div class="form-group m-0">
 									<button type="submit" class="btn loginbtn btn-block">
@@ -69,6 +70,7 @@
 			</div>
 		</div>
 	</section>
+	<script  src="js/index.js"></script>
 
 </body>
 </html>
